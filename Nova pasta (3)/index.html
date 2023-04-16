@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Controle de Respiração e Ansiedade</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="game-container">
+      <div class="oi">
+        <h1>Controle de Respiração e Ansiedade</h1>
+        <p>
+          Instruções: Inspire pelo nariz e segure a respiração. Em seguida,
+          expire lentamente pela boca. Repita o ciclo.
+        </p>
+      </div>
+      <button id="start-button">Iniciar</button>
+      <div id="game-screen">
+        <div id="breathing-circle"></div>
+        <div id="breathing-text">Inspire</div>
+      </div>
+      <div id="score-container">
+        <p class="Pontuacao">Pontuação: <span id="score">0</span></p>
+        <button id="reset-button">Parar</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
